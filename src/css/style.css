@@ -1,3 +1,53 @@
 body {
-    background-color: aquamarine;
+  background-color: rgb(221, 233, 229);
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+.navbar {
+    heigth: 30%;
+    background-color: rgb(180, 247, 160);
+}
+
+#wrapper {
+  height: 100%;
+}
+
+.avatar {
+  vertical-align: middle;
+  padding-right: 5px;
+    height: 40px;
+  width: 40px;
+}
+a>span {
+    font-weight:700
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+}
+
+.container {
+  display: inline-block;
+  width: 59%;
+  height: 100%;
+
+}
+
+.user {
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+
 }
