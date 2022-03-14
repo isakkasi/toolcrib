@@ -15,9 +15,11 @@
         padding: 80px;
         /* text-decoration: strong; */
         font-weight: 700;
+      }
+      p {
+        margin-top: 100px;
     }
-    
-    div {
+      div {
         margin-top: 80px;
         height: 500px;
         vertical-align: center;
@@ -32,5 +34,16 @@
       <h3>buzoo.org &copy</h3>
       <span>2022</span>
     </div>
+    <script>
+      let boo = document.createElement('p');
+      document.querySelector('div').appendChild(boo);
+      window.addEventListener('load', timeChange);
+
+      function timeChange () {
+        let time = new Date();
+        boo.textContent = time.toString();
+        setTimeout(timeChange, 1000);
+      };
+    </script>
   </body>
 </html>
